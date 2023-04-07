@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 60px;
+    position: fixed;
+    background-image: linear-gradient(#2d98da, #3867d6);
+}
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+nav ul{
+    float: right;
+}
+
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    color: #4b6584;
+    transition: all 0.4% ease 0%;
+}
+
+#profile .content {
+  padding-top: 140px;
+}
+
+#profile .profile-container {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  #profile .profile-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+#profile .profile-container-right {
+    font-size: 26px;
+    color: white;
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 70%;
+  padding: 50px;
+  margin-left: 70px;
+  margin-right: 70px;
+  border-radius: 30px;
+  margin-bottom: 50px;
+  background-image: linear-gradient(#3867d6, #2d98da);
+}
+
+#profile .profile-container-left {
+  -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#profile .profile-container-left img {
+    margin-bottom: 50px;
+    border-radius: 100%;
+  max-width: 90%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+@media screen and (min-width: 768px) {
+  #profile .profile-container-left img {
+    -ms-flex-item-align: stretch;
+        -ms-grid-row-align: stretch;
+        align-self: stretch;
+  }
+}
+
+.desc{
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+}
+
+h2 {
+  color: #2d98da;
+  font-family: Arial, sans-serif;
+}
+
+table {
+  width: 100%;
+  padding: 200px;
+}
+
+th, td {
+  text-align: center;
+  padding: 12px;
+  font-size: x-large;
+}
+
+th {
+  background-image: linear-gradient(#2d98da,#3867d6);
+  color: white;
+  border: 1px solid #4b6584;
+}
+
+td {
+  color: #2d98da;
+  background-color: white;
+  border: 1px solid #4b6584;
+}
+
+.waktu{
+  background-image: linear-gradient(#2d98da,#3867d6);
+  color: white;
+}
+
